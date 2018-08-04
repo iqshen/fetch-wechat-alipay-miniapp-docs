@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <title>微信、支付宝文档爬虫</title>
+</head>
+<body>
+<div class="container">
+    <div class="tip">后台每五分钟自动更新一次</div>
+    <a href="/result/wx-component.csv" download="wx-component.csv">下载微信组件</a>
+    <a href="/result/wx-api.csv" download="wx-api.csv">下载微信api</a>
+    <a href="/result/alipay-component.csv" download="alipay-component.csv">下载支付宝组件</a>
+    <a href="/result/alipay-api.csv" download="alipay-api.csv">下载支付宝api</a>
+</div>
+</body>
+</html>
+
+<style>
+    body {
+    }
+
+    .container {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tip {
+        display: inline;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    a {
+        margin: 20px;
+    }
+</style>
